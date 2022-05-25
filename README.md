@@ -1,2 +1,2 @@
 # MiniProgs
-Ensemble de petits programmes simulant un petit virus.
+Ensemble de programmes en Batch et en Visual Basic Script.
