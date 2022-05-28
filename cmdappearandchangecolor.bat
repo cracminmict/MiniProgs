@@ -1,13 +1,12 @@
-@echo off
 title Hello World
 timeout /t 1
 echo Hello World
-set repeat=0
+set a=0
 title Error detected
 color A
 prompt VIRUS DETECTED
 cls
-Repeat:
+:Repeat
 color 09
 
 color 4C
@@ -43,7 +42,9 @@ color FC
 color AC
 
 color CA
-set /repeat repeat=%repeat+1
-pause
-if %repeat% == 100 goto Fin
+
+start cmdappearandchangecolor.bat
+
+set /a a=%repeat+1
+if %a% == 10 goto Fin
 goto Repeat
