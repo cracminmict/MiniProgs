@@ -1,1 +1,0 @@
-x = MsbBox("Hello";0+0;"Hello")
