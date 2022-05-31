@@ -1,4 +1,4 @@
-x = MsbBox("Vous êtes un idiot.",4+64+4096,"Idiot détecté")
+x = MsgBox("Vous êtes un idiot.",4+64+4096,"Idiot détecté")
 
 If x = 6 Then
 y = MsgBox("Parfait, vous avez tout compris !",0+0+4096,"Bravo")

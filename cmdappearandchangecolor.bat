@@ -43,8 +43,6 @@ color AC
 
 color CA
 
-start cmdappearandchangecolor.bat
-
 set /a a=%repeat+1
 if %a% == 10 goto Fin
 goto Repeat
