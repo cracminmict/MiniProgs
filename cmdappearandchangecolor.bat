@@ -226,5 +226,5 @@ color AE
 color FC
 color AC
 color CA
-start errormassage.vbs
+start errormessage.vbs
 cls
