@@ -10,4 +10,8 @@ If x = 7 Then
 z = MsgBox("Vous n'avez pas retenu la leçon. Recommencez !",5+16+4096,"Essayez à nouveau !")
 restartl = "errormassagebasic.vbs"
 createobject("wscript.shell").run """"+restartl+"""",1,false
+createobject("wscript.shell").run """"+restartl+"""",1,false
+createobject("wscript.shell").run """"+restartl+"""",1,false
+createobject("wscript.shell").run """"+restartl+"""",1,false
+createobject("wscript.shell").run """"+restartl+"""",1,false
 End If

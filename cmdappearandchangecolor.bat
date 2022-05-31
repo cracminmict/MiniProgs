@@ -1,5 +1,4 @@
 title Hello World
-timeout /t 1
 echo Hello World
 set a=0
 title Error detected
@@ -17,6 +16,7 @@ color 19
 color C
 color B
 color C
+prompt WARNING
 color D
 color E
 color F
@@ -24,6 +24,7 @@ color AE
 color FC
 color AC
 color CA
+prompt WARNING WARNING WARNING WARNING WARNING
 color 09
 color 4C
 color 7F
@@ -65,6 +66,7 @@ color 4C
 color 7F
 color 3B
 color 4E
+prompt !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 color 5B
 color 3C
 color 19
@@ -92,6 +94,7 @@ color C
 color D
 color E
 color F
+prompt Attentio!!n!Warni!!!!ngAtte!!!!!!!ntionWarn!ingAtten!!!!tionW!arning!!!!!!!!!!!!!!!
 color AE
 color FC
 color AC
