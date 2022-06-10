@@ -1,4 +1,4 @@
-Rem Hello World
+Rem dabet61 Production
 
 intro = MsgBox("Windows a rencontré un problème. Pour résoudre le problème, ",1+16+4096,"Plantage de Windows")
 
