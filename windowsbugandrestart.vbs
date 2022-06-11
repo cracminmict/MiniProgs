@@ -1,6 +1,7 @@
+nameofprog = "windowsbugandrestart.vbs"
 box1 = MsgBox("Windows a rencontre un probleme. Pour resoudre le probleme, cliquez sur OK",1 + 16 + 4096,"Plantage de Windows")
     If box1 = 1 Then
-        box2 = MsgBox("Redemarrage necessaire",1 + 48 + 4096,"Un redemarrage est necessaire pour resoudre le probleme. Cliquez sur OK pour continuer, ou sur Annuler pour revenir en arriere.")
+        box2 = MsgBox("Un redemarrage est necessaire pour resoudre le probleme. Cliquez sur OK pour continuer, ou sur Annuler pour revenir en arriere.",1 + 48 + 4096,"Redemarrage necessaire")
     End If
 
     If box2 = 1 Then
@@ -9,13 +10,12 @@ box1 = MsgBox("Windows a rencontre un probleme. Pour resoudre le probleme, cliqu
     End If
 
     If box2 = 2 Then
-        WScript.Sleep(2000)
-        restartprogcommande = "windowsbugandrestart.vbs"
+        restartprogcommande = nameofprog
         CreateObject("wscript.shell").run """" + restartprogcommande + """",1,False
     End If
 
     If box1 = 2 Then
         WScript.Sleep(2000)
-        commanderestartp = "windowsbugandrestart.vbs"
+        commanderestartp = nameofprog
         CreateObject("wscript.shell").run """" + commanderestartp + """",1,False
     End If
