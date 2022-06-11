@@ -9,12 +9,13 @@ box1 = MsgBox("Windows a rencontré un problème. Pour résoudre le problème, c
     End If
 
     If box2 = 2 Then
-        WScript.Sleep(3000)
+        WScript.Sleep(2000)
         restartprogcommande = "windowsbugandrestart.vbs"
         CreateObject("wscript.shell").run """" + restartprogcommande + """",1,False
     End If
 
     If box1 = 2 Then
+        WScript.Sleep(2000)
         commanderestartp = "windowsbugandrestart.vbs"
         CreateObject("wscript.shell").run """" + commanderestartp + """",1,False
     End If
