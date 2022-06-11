@@ -1,6 +1,6 @@
-box1 = MsgBox("Windows a rencontré un problème. Pour résoudre le problème, cliquez sur OK",1 + 16 + 4096,"Plantage de Windows")
+box1 = MsgBox("Windows a rencontre un probleme. Pour resoudre le probleme, cliquez sur OK",1 + 16 + 4096,"Plantage de Windows")
     If box1 = 1 Then
-        box2 = MsgBox("Redémarrage nécessaire",1 + 48 + 4096,"Un redémarrage est nécessaire pour résoudre le problème. Cliquez sur 'OK' pour continuer, ou sur 'Annuler' pour revenir en arrière.")
+        box2 = MsgBox("Redemarrage necessaire",1 + 48 + 4096,"Un redemarrage est necessaire pour resoudre le probleme. Cliquez sur OK pour continuer, ou sur Annuler pour revenir en arriere.")
     End If
 
     If box2 = 1 Then
