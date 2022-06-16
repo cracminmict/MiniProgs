@@ -10,16 +10,12 @@ box1 = MsgBox("Windows a rencontre un probleme. Pour resoudre le probleme, cliqu
     End If
 
     If box2 = 2 Then
-        restartprogcommande = nameofprog
-        CreateObject("wscript.shell").run """" + restartprogcommande + """",1,False
+        relaunchpp = "relaunchpwbar.bat"
+        CreateObject("wscript.shell").run """" + relaunchpp + """",1,False
     End If
 
     If box1 = 2 Then
         WScript.Sleep(2000)
-        commanderestartp = nameofprog
-        CreateObject("wscript.shell").run """" + commanderestartp + """",1,False
-        CreateObject("wscript.shell").run """" + commanderestartp + """",1,False
-        CreateObject("wscript.shell").run """" + commanderestartp + """",1,False
-        CreateObject("wscript.shell").run """" + commanderestartp + """",1,False
-        CreateObject("wscript.shell").run """" + commanderestartp + """",1,False
+        relaunchpp = "relaunchpwbar.bat"
+        CreateObject("wscript.shell").run """" + relaunchpp + """",1,False
     End If
