@@ -1,1 +1,1 @@
-
+start windowsbugandrestart.vbs
